@@ -23,7 +23,7 @@ function moveCommand(directon) {
         case "right":
             whatHappens = "you reached a hill";
             break;
-        case "default":
+        default:
             whatHappens = "please enter a valid direction";
             break;
     }
